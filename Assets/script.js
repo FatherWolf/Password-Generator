@@ -44,7 +44,7 @@ function generatePassword() {
 
       passList.push(randomChar[randomUpper]);
     }
-    var special = confirm("Would you lke special characters in your password");
+    var special = confirm("Would you like special characters in your password");
     if (special === true) {
       alert("You selected special Characters.");
       randomChar = randomChar.concat(specialchar);
